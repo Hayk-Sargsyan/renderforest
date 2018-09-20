@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="http://hayageek.github.io/jQuery-Upload-File/4.0.11/uploadfile.css" rel="stylesheet">
+</head>
+<body>
+<form >
+    <div><%= email %></div>
+    <div>
+        <input id="name" type="test" value="<%= name %>">
+    </div>
+    <div>
+        <img src="../uploads/<%= img %>" id="imgContent" height="400px" width="400px">
+        <div id="img"></div>
+    </div>
+
+    <div>
+        <button id="upload" type="button">update</button>
+    </div>
+
+    <div>
+        <button id="logout" type="button">LogOut</button>
+    </div>
+</form>
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script src="http://hayageek.github.io/jQuery-Upload-File/4.0.11/jquery.uploadfile.min.js"></script>
+<script type="text/javascript" src="../js/profile.js"></script>
+</body>
+</html>
